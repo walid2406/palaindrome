@@ -1,0 +1,9 @@
+Écrivez un algorithme qui analyse une chaîne de caractères et détermine si les caractères peuvent être réarrangés pour former une séquence palindromique.
+Si la chaîne peut en effet former un palindrome, vérifiez aussi si elle peut être transformée dans un palindrome avec un maximum de 3 combinaisons de caractères – une combinaison implique la modification de la position d’un caractère avec au maximum 1 indice, c’est-à-dire que seulement les inter-changements de caractères adjacents sont autorisés.
+Un palindrome est un mot, une phrase, un numéro ou toute autre séquence de caractères dont l’ordre des lettres reste le même si on le lit de gauche à droite ou de droite à gauche. Il n’y a aucun besoin de vérifier les majuscules, les diacritiques, les accents, les espaces, la ponctuation ou les séparateurs de mots.
+Entrée : chaîne de caractères
+Sortie : 0 pour FAUX ou 1 pour VRAI si les 2 conditions sont remplies. 
+Le code donné prend en entrée un fichier contenant les paramètres et renvoie les résultats comme dans le fichier de sortie.
+Le résultat de sortie doit être affiché avec un caractère de retour à la ligne à la fin (cf le code donné).
+Exemple :
+Pour “soososo” => VRAI (1 changement - soosoos)
