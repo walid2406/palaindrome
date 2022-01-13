@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String line = "bobo";
+        String line = "soososo";
 //        System.out.println(line.charAt(0));
 //        System.out.println(5 / 2);
 //        System.out.println(line.charAt(line.length() - 1));
@@ -40,8 +40,20 @@ public class Main {
             //pour verifier changement adjacent
             //il fau quelle forme un palaindrome ici le tri
             // deux cas lors de construction des deux partie il faut ajouter if
-            String partieDroite = line.substring(0, (line.length() ) / 2);
-           String partieGauche = line.substring((line.length() ) / 2, (line.length() ));
+            String partieDroite,  partieGauche;
+            if(line.length()%2==0) {
+                 partieDroite = line.substring(0, (line.length()) / 2);
+                 partieGauche = line.substring((line.length()) / 2, (line.length()));
+            } else{
+                partieDroite = line.substring(0, ((line.length()) / 2));
+                partieGauche = line.substring(((line.length()) / 2)+1, (line.length()));
+                System.out.println(partieDroite);
+                System.out.println(partieGauche);
+
+
+
+
+            }
 
 
             // tester si ca construit un palaindrome pour verifier autre changement de adjacant

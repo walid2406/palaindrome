@@ -4,6 +4,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$APPLICATION_PLUGINS_DIR$/CaosPlugin/lib/CaosPlugin-2021.11.01.jar!/lib" />
+      <root url="jar://$APPLICATION_PLUGINS_DIR$/CaosPlugin/lib/CaosPlugin-2021.11.01.jar!/lib" />
     </SOURCES>
   </library>
 </component>
